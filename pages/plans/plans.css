@@ -1,0 +1,46 @@
+.main {
+  padding-top: 32px;
+}
+.plan {
+  width: 60%;
+  margin: 16px 0;
+  border: 2px solid #1465c0;
+  border-left: none;
+  text-align: right;
+  border-radius: 3px;
+}
+
+.plan a {
+  text-decoration: none;
+  color: #0d47a1;
+  display: block;
+  padding: 32px;
+}
+.plan__info {
+  padding: 16px;
+  border: 1px solid #1288e5;
+  font-size: 15px;
+  background: #ffffff;
+}
+.clearfix{
+  clear: both;
+}
+
+#plus {
+  background: #bbdefb;
+}
+
+#free {
+  background: #e3f2fd;
+  float: right;
+  border-right: none;
+  border-left: 2px solid #1565c0;
+}
+
+#premium{
+  background: #1565c0;
+}
+
+#premium .plan__title{
+  color: #ffffff;
+}
