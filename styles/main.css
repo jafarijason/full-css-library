@@ -1,12 +1,19 @@
 #overview {
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
   /* background: url("../images/bg-image.jpg") center/cover no-repeat; */
   /* background: linear-gradient(30deg,red ,blue,green,transparent); */
   /* background: radial-gradient(circle at 20% 50%,red,blue,green); */
 
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent),
     url("../images/bg-image.jpg") center/cover no-repeat, #90caf9;
+}
+
+
+@media (max-width:40rem){
+  #overview{
+    height: 50vh;
+  }
 }
 
 .section-title {
