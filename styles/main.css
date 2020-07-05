@@ -1,6 +1,6 @@
 #overview {
-  width: 100%;
-  height: 600px;
+  width: 100vw;
+  height: 50vh;
   /* background: url("../images/bg-image.jpg") center/cover no-repeat; */
   /* background: linear-gradient(30deg,red ,blue,green,transparent); */
   /* background: radial-gradient(circle at 20% 50%,red,blue,green); */
